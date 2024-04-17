@@ -1,9 +1,9 @@
-//Импорт необходимых модулей
+
 const express = require('express');
 const TelegramBot = require('node-telegram-bot-api');
 const nodemailer = require('nodemailer');
 
-// Express приложение
+// Express
 const app = express();
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
